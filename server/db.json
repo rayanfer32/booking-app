@@ -1,0 +1,376 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Jack",
+      "lastName": "Smith",
+      "location": "Mountain View, CA",
+      "pincode": 94043,
+      "mobile": 123456789,
+      "email": "54asd@example.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Mary",
+      "lastName": "Jean",
+      "location": "New York",
+      "pincode": 464555,
+      "mobile": 123456789,
+      "email": "l8wG3@example.com"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "deep-cleaning",
+      "service_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "cleaning",
+      "service_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "id": 1,
+      "name": "Jack",
+      "skill": "deep-cleaning",
+      "skill_id": 1,
+      "service_id": "1",
+      "capacity": 8,
+      "cost": 500
+    },
+    {
+      "id": 2,
+      "name": "Daisy",
+      "skill": "deep-cleaning",
+      "skill_id": 1,
+      "service_id": "1",
+      "capacity": 8,
+      "cost": 700
+    },
+    {
+      "name": "Neel",
+      "skill": "deep-cleaning",
+      "skill_id": 1,
+      "capacity": 8,
+      "cost": 500,
+      "createdAt": "2023-08-12T14:53:57.907Z",
+      "id": 3
+    }
+  ],
+  "extraStaff": [
+    {
+      "id": 3,
+      "name": "Mary",
+      "skill": "sweeping",
+      "capacity": 8,
+      "skill_id": 2,
+      "cost": 700
+    },
+    {
+      "id": 4,
+      "name": "Brock",
+      "skill": "deep-cleaning",
+      "capacity": 8,
+      "skill_id": 1,
+      "cost": 600
+    },
+    {
+      "id": 5,
+      "name": "Lily",
+      "skill_id": 1,
+      "skill": "deep-cleaning",
+      "capacity": 8,
+      "cost": 800
+    }
+  ],
+  "reservations": [
+    {
+      "id": 2,
+      "startDate": "2023-08-06T18:30:00.000Z",
+      "endDate": "2023-08-06T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-07T13:15:44.031Z"
+    },
+    {
+      "id": 3,
+      "startDate": "2023-08-06T18:30:00.000Z",
+      "endDate": "2023-08-06T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-07T13:15:56.441Z"
+    },
+    {
+      "id": 4,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service_id": 2,
+      "slot": "9:00am - 1:00pm",
+      "createdAt": "2023-08-12T07:15:19.091Z"
+    },
+    {
+      "id": 5,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service_id": 2,
+      "slot": "10:00am - 2:00pm",
+      "createdAt": "2023-08-12T07:15:22.339Z"
+    },
+    {
+      "id": 6,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T13:03:19.035Z"
+    },
+    {
+      "id": 7,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T13:03:25.612Z"
+    },
+    {
+      "id": 8,
+      "startDate": "2023-08-12T18:30:00.000Z",
+      "endDate": "2023-08-12T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T13:03:44.154Z"
+    },
+    {
+      "id": 9,
+      "startDate": "2023-08-12T18:30:00.000Z",
+      "endDate": "2023-08-12T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "10:00am - 6:00pm",
+      "createdAt": "2023-08-12T13:03:59.973Z"
+    },
+    {
+      "id": 10,
+      "startDate": "2023-08-13T18:30:00.000Z",
+      "endDate": "2023-08-13T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:51:08.640Z"
+    },
+    {
+      "id": 11,
+      "startDate": "2023-08-13T18:30:00.000Z",
+      "endDate": "2023-08-13T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:51:21.491Z"
+    },
+    {
+      "id": 12,
+      "startDate": "2023-09-07T18:30:00.000Z",
+      "endDate": "2023-09-07T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:51:39.266Z"
+    },
+    {
+      "id": 13,
+      "startDate": "2023-09-07T18:30:00.000Z",
+      "endDate": "2023-09-07T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:51:41.360Z"
+    },
+    {
+      "id": 14,
+      "startDate": "2023-08-31T18:30:00.000Z",
+      "endDate": "2023-08-31T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:52:32.382Z"
+    },
+    {
+      "id": 15,
+      "startDate": "2023-08-31T18:30:00.000Z",
+      "endDate": "2023-08-31T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:52:33.528Z"
+    },
+    {
+      "id": 16,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service_id": 1,
+      "slot": "9:00am - 5:00pm",
+      "createdAt": "2023-08-12T14:55:20.015Z"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Deep Cleaning - 1 BHK",
+      "type": "Home Cleaning",
+      "price": 4000,
+      "duration": 8
+    },
+    {
+      "id": 2,
+      "name": "Window Cleaning",
+      "type": "Home Cleaning",
+      "price": 1000,
+      "duration": 4
+    },
+    {
+      "id": 3,
+      "name": "Sofa Cleaning - 1 seat",
+      "type": "Home Cleaning",
+      "price": 230,
+      "maxUnits": 8
+    },
+    {
+      "id": 4,
+      "name": "Carpet Cleaning - 1 sqft",
+      "type": "Home Cleaning",
+      "price": 10,
+      "maxUnits": 8
+    },
+    {
+      "id": 5,
+      "name": "Appliance Cleaning",
+      "type": "Home Cleaning",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "name": "Floor Polishing",
+      "type": "Home Cleaning",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "name": "Vaccum Cleaning",
+      "type": "Home Cleaning",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "name": "Post Construction Cleaning",
+      "type": "Home Cleaning",
+      "price": 1500
+    },
+    {
+      "id": 9,
+      "name": "Move Out Cleaning",
+      "type": "Home Cleaning",
+      "price": 1500
+    }
+  ],
+  "otherServices": [
+    {
+      "name": "Pest Control",
+      "services": [
+        {
+          "name": "Termite Treatment",
+          "price": 4000
+        },
+        {
+          "name": "Mosquito Control",
+          "price": 1000
+        },
+        {
+          "name": "Rodent Control",
+          "price": 1500
+        },
+        {
+          "name": "Ant Control",
+          "price": 1000
+        },
+        {
+          "name": "Bed Bug Control",
+          "price": 2000
+        },
+        {
+          "name": "Bird Control",
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "name": "Painting",
+      "services": [
+        {
+          "name": "Interior Painting",
+          "price": 100
+        },
+        {
+          "name": "Exterior Painting",
+          "price": 150
+        },
+        {
+          "name": "Wall Texture",
+          "price": 150
+        },
+        {
+          "name": "Roof Painting",
+          "price": 200
+        },
+        {
+          "name": "Wood Finishing",
+          "price": 250
+        },
+        {
+          "name": "Concrete Polishing",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "name": "Other Services",
+      "services": [
+        {
+          "name": "Furniture Assembly",
+          "price": 500
+        },
+        {
+          "name": "Electrical Repair",
+          "price": 500
+        },
+        {
+          "name": "Plumbing Repair",
+          "price": 500
+        },
+        {
+          "name": "AC Repair",
+          "price": 1000
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "price": 500
+        },
+        {
+          "name": "CCTV Installation",
+          "price": 1000
+        },
+        {
+          "name": "Geyser Installation",
+          "price": 1000
+        }
+      ]
+    }
+  ]
+}

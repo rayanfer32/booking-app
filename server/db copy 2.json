@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Jack",
+      "lastName": "Smith",
+      "location": "Mountain View, CA",
+      "pincode": 94043,
+      "mobile": 123456789,
+      "email": "54asd@example.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Mary",
+      "lastName": "Jean",
+      "location": "New York",
+      "pincode": 464555,
+      "mobile": 123456789,
+      "email": "l8wG3@example.com"
+    }
+  ],
+  "staffs": [
+    {
+      "id": 1,
+      "name": "Jack",
+      "skill": "deep-cleaning",
+      "skill_id": 1,
+      "capacity": 8,
+      "cost": 500
+    },
+    {
+      "id": 2,
+      "name": "Daisy",
+      "skill": "deep-cleaning",
+      "skill_id": 1,
+      "capacity": 8,
+      "cost": 700
+    }
+  ],
+  "extraStaff": [
+    {
+      "id": 3,
+      "name": "Mary",
+      "skill": "sweeping",
+      "capacity": 8,
+      "skill_id": 2,
+      "cost": 700
+    },
+    {
+      "id": 4,
+      "name": "Brock",
+      "skill": "deep-cleaning",
+      "capacity": 8,
+      "skill_id": 1,
+      "cost": 600
+    },
+    {
+      "id": 5,
+      "name": "Lily",
+      "skill_id": 1,
+      "skill": "deep-cleaning",
+      "capacity": 8,
+      "cost": 800
+    }
+  ],
+  "reservationsOld": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "staff_id": 2,
+      "skill": "deep-cleaning",
+      "startDate": "2023-08-03T10:49:50.221Z",
+      "endDate": "2023-08-03T10:49:50.221Z",
+      "createdAt": "2023-08-03T10:49:50.221Z",
+      "capacity": 4,
+      "cost": 200
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "staff_id": 3,
+      "skill": "deep-cleaning",
+      "startDate": "2023-08-09T10:49:50.221Z",
+      "endDate": "2023-08-09T10:49:50.221Z",
+      "createdAt": "2023-08-09T10:49:50.221Z",
+      "capacity": 8,
+      "cost": 500
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "staff_id": 3,
+      "skill": "deep-cleaning",
+      "startDate": "2023-08-10T18:30:00.000Z",
+      "endDate": "2023-08-10T18:30:00.000Z",
+      "capacity": 8,
+      "cost": 500,
+      "service": {
+        "name": "Sofa Cleaning - 1 seat",
+        "price": 230
+      },
+      "slot": "10:00am - 6:00pm",
+      "createdAt": 1691332458596
+    },
+    {
+      "id": 3,
+      "startDate": "2023-08-11T18:30:00.000Z",
+      "endDate": "2023-08-11T18:30:00.000Z",
+      "service": {
+        "name": "Sofa Cleaning - 1 seat",
+        "price": 230
+      },
+      "slot": "9:00am - 5:00pm",
+      "createdAt": 1691332908661
+    }
+  ],
+  "reservations": [
+    {
+      "id": 4,
+      "startDate": "2023-08-16T18:30:00.000Z",
+      "endDate": "2023-08-16T18:30:00.000Z",
+      "service": {
+        "name": "Sofa Cleaning - 1 seat",
+        "price": 230,
+        "duration": 4
+      },
+      "slot": "9:00am - 5:00pm",
+      "createdAt": 1691338148674
+    },
+    {
+      "id": 5,
+      "startDate": "2023-08-05T18:30:00.000Z",
+      "endDate": "2023-08-05T18:30:00.000Z",
+      "service": {
+        "id": 1,
+        "name": "Deep Cleaning - 1 BHK",
+        "price": 4000,
+        "duration": 8
+      },
+      "slot": "9:00am - 5:00pm",
+      "createdAt": 1691343001209
+    },
+    {
+      "id": 6,
+      "startDate": "2023-08-05T18:30:00.000Z",
+      "endDate": "2023-08-05T18:30:00.000Z",
+      "service": {
+        "id": 1,
+        "name": "Deep Cleaning - 1 BHK",
+        "price": 4000,
+        "duration": 8
+      },
+      "slot": "9:00am - 5:00pm",
+      "createdAt": 1691343023036
+    }
+  ],
+  "services": [
+    {
+      "name": "Home Cleaning",
+      "services": [
+        {
+          "id": 1,
+          "name": "Deep Cleaning - 1 BHK",
+          "price": 4000,
+          "duration": 8
+        },
+        {
+          "id": 2,
+          "name": "Window Cleaning",
+          "price": 1000,
+          "duration": 4
+        },
+        {
+          "id": 3,
+          "name": "Sofa Cleaning - 1 seat",
+          "price": 230,
+          "maxUnits": 8
+        },
+        {
+          "id": 4,
+          "name": "Carpet Cleaning - 1 sqft",
+          "price": 10,
+          "maxUnits": 8
+        },
+        {
+          "id": 5,
+          "name": "Appliance Cleaning",
+          "price": 500
+        },
+        {
+          "id": 6,
+          "name": "Floor Polishing",
+          "price": 100
+        },
+        {
+          "name": "Vaccum Cleaning",
+          "price": 500
+        },
+        {
+          "name": "Post Construction Cleaning",
+          "price": 1500
+        },
+        {
+          "name": "Move Out Cleaning",
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "name": "Pest Control",
+      "services": [
+        {
+          "name": "Termite Treatment",
+          "price": 4000
+        },
+        {
+          "name": "Mosquito Control",
+          "price": 1000
+        },
+        {
+          "name": "Rodent Control",
+          "price": 1500
+        },
+        {
+          "name": "Ant Control",
+          "price": 1000
+        },
+        {
+          "name": "Bed Bug Control",
+          "price": 2000
+        },
+        {
+          "name": "Bird Control",
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "name": "Painting",
+      "services": [
+        {
+          "name": "Interior Painting",
+          "price": 100
+        },
+        {
+          "name": "Exterior Painting",
+          "price": 150
+        },
+        {
+          "name": "Wall Texture",
+          "price": 150
+        },
+        {
+          "name": "Roof Painting",
+          "price": 200
+        },
+        {
+          "name": "Wood Finishing",
+          "price": 250
+        },
+        {
+          "name": "Concrete Polishing",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "name": "Other Services",
+      "services": [
+        {
+          "name": "Furniture Assembly",
+          "price": 500
+        },
+        {
+          "name": "Electrical Repair",
+          "price": 500
+        },
+        {
+          "name": "Plumbing Repair",
+          "price": 500
+        },
+        {
+          "name": "AC Repair",
+          "price": 1000
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "price": 500
+        },
+        {
+          "name": "CCTV Installation",
+          "price": 1000
+        },
+        {
+          "name": "Geyser Installation",
+          "price": 1000
+        }
+      ]
+    }
+  ]
+}

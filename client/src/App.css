@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.highlight-date-available {
+  background-color: #46ad5c98;
+}
+.highlight-date-unavailable {
+  background-color: #ffb277;
+  color: black;
+}
